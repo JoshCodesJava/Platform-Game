@@ -1,0 +1,53 @@
+﻿Build started 10/24/2015 5:52:43 PM.
+     1>Project "C:\Users\Owner\Documents\Visual Studio 2012\Projects\Platform Game\Platform Game\Platform Game.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\libs\TGUI-0.6\include" /I"C:\libs\SFML-2.3.2\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt BlockCheckpoint.cpp BlockDiamond.cpp BlockDispenser.cpp BlockLava.cpp BlockPortal.cpp BlockSponge.cpp EntityCharacter.cpp EntityFireball.cpp Main.cpp World.cpp WorldProvider.cpp
+         BlockCheckpoint.cpp
+     1>c:\users\owner\documents\visual studio 2012\projects\platform game\platform game\Utility.h(71): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         BlockDiamond.cpp
+     1>c:\users\owner\documents\visual studio 2012\projects\platform game\platform game\Utility.h(71): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         BlockDispenser.cpp
+     1>c:\users\owner\documents\visual studio 2012\projects\platform game\platform game\Utility.h(71): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         BlockLava.cpp
+     1>c:\users\owner\documents\visual studio 2012\projects\platform game\platform game\Utility.h(71): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         BlockPortal.cpp
+     1>c:\users\owner\documents\visual studio 2012\projects\platform game\platform game\Utility.h(71): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         BlockSponge.cpp
+     1>c:\users\owner\documents\visual studio 2012\projects\platform game\platform game\Utility.h(71): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         EntityCharacter.cpp
+     1>c:\users\owner\documents\visual studio 2012\projects\platform game\platform game\Utility.h(71): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         EntityFireball.cpp
+     1>c:\users\owner\documents\visual studio 2012\projects\platform game\platform game\Utility.h(71): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Main.cpp
+     1>c:\users\owner\documents\visual studio 2012\projects\platform game\platform game\GuiManager.h(279): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\owner\documents\visual studio 2012\projects\platform game\platform game\Utility.h(71): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(36): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Main.cpp(48): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Main.cpp(157): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         World.cpp
+     1>c:\users\owner\documents\visual studio 2012\projects\platform game\platform game\Utility.h(71): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         WorldProvider.cpp
+     1>c:\users\owner\documents\visual studio 2012\projects\platform game\platform game\Utility.h(71): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Owner\Documents\Visual Studio 2012\Projects\Platform Game\Release\Platform Game.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\libs\TGUI-0.6\lib" /LIBPATH:"C:\libs\SFML-2.3.2\lib" "sfml-system.lib" "sfml-window.lib" "sfml-graphics.lib" "sfml-audio.lib" "sfml-main.lib" tgui.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Owner\Documents\Visual Studio 2012\Projects\Platform Game\Release\Platform Game.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Owner\Documents\Visual Studio 2012\Projects\Platform Game\Release\Platform Game.lib" /MACHINE:X86 /SAFESEH Release\Resources.res
+         Release\BlockCheckpoint.obj
+         Release\BlockDiamond.obj
+         Release\BlockDispenser.obj
+         Release\BlockLava.obj
+         Release\BlockPortal.obj
+         Release\BlockSponge.obj
+         Release\EntityCharacter.obj
+         Release\EntityFireball.obj
+         Release\Main.obj
+         Release\World.obj
+         Release\WorldProvider.obj
+         Generating code
+     1>c:\users\owner\documents\visual studio 2012\projects\platform game\platform game\entityslime.h(208): warning C4715: 'EntitySlime::getImage' : not all control paths return a value
+     1>c:\users\owner\documents\visual studio 2012\projects\platform game\platform game\entitywoompa.h(216): warning C4715: 'EntityWoompa::getImage' : not all control paths return a value
+         Finished generating code
+         Platform Game.vcxproj -> C:\Users\Owner\Documents\Visual Studio 2012\Projects\Platform Game\Release\Platform Game.exe
+     1>Done Building Project "C:\Users\Owner\Documents\Visual Studio 2012\Projects\Platform Game\Platform Game\Platform Game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:25.88

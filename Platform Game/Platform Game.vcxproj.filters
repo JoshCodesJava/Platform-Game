@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="images">
+      <UniqueIdentifier>{c3f284fc-1476-4417-9d19-a8b5413531a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{3af8b99f-593f-4667-b283-59bb2982ceac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sound">
+      <UniqueIdentifier>{a085ae34-0f01-4f28-b824-8283a11f1099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{7016b199-4f9e-411a-a7ae-0c8f1431dc1e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BlockCheckpoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockDiamond.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockDispenser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockGround.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockLadder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockLava.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockPortal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockSponge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityCharacter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityDiamond.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityFireball.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntitySlime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityWoompa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BlockCheckpoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockDiamond.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockDispenser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockLava.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockPortal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockSponge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityCharacter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityFireball.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldProvider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\Woompa_Right_1.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Woompa_Right_2.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Woompa_Right_3.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Woompa_Right_4.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Background.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Checkpoint 1.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Checkpoint 2.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Dispenser-Block.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Fireball.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Ground-Block.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Ladder-Block.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Lava-Block.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Player_Left_1.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Player_Left_2.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Player_Left_3.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Player_Left_4.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Player_Right_1.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Player_Right_2.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Player_Right_3.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Player_Right_4.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Portal-Block.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Slime_Left_1.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Slime_Left_2.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Slime_Left_3.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Slime_Left_4.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Slime_Right_1.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Slime_Right_2.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Slime_Right_3.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Slime_Right_4.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Sponge-Block.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Star.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Woompa_Left_1.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Woompa_Left_2.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Woompa_Left_3.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\Woompa_Left_4.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="gui\Black.png">
+      <Filter>gui</Filter>
+    </Image>
+    <Image Include="gui\Background.png">
+      <Filter>gui</Filter>
+    </Image>
+    <Image Include="resources\Icon.ico">
+      <Filter>resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="gui\Stanislav.ttf">
+      <Filter>gui</Filter>
+    </Font>
+    <Font Include="resources\PressStart2P.ttf">
+      <Filter>resources</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sound\checkpoint.wav">
+      <Filter>sound</Filter>
+    </Media>
+    <Media Include="sound\death.wav">
+      <Filter>sound</Filter>
+    </Media>
+    <Media Include="sound\diamond.wav">
+      <Filter>sound</Filter>
+    </Media>
+    <Media Include="sound\die.wav">
+      <Filter>sound</Filter>
+    </Media>
+    <Media Include="sound\dispenser.wav">
+      <Filter>sound</Filter>
+    </Media>
+    <Media Include="sound\jump.wav">
+      <Filter>sound</Filter>
+    </Media>
+    <Media Include="sound\loop.wav">
+      <Filter>sound</Filter>
+    </Media>
+    <Media Include="sound\slime.wav">
+      <Filter>sound</Filter>
+    </Media>
+    <Media Include="sound\splat.wav">
+      <Filter>sound</Filter>
+    </Media>
+    <Media Include="sound\win.wav">
+      <Filter>sound</Filter>
+    </Media>
+    <Media Include="sound\bounce.wav">
+      <Filter>sound</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="gui\Black.conf">
+      <Filter>gui</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
